@@ -83,7 +83,7 @@ export async function POST(req: NextRequest) {
             console.log("Smart AI", automation);
 
             const smart_ai_message = await openai.chat.completions.create({
-              model: "gpt-4o-mini",
+              model: "llama3-70b-8192",
               messages: [
                 {
                   role: "assistant",
@@ -205,7 +205,7 @@ export async function POST(req: NextRequest) {
               automation.User?.subscription?.plan === "PRO"
             ) {
               const smart_ai_message = await openai.chat.completions.create({
-                model: "gpt-4o-mini",
+                model: "llama3-70b-8192",
                 messages: [
                   {
                     role: "assistant",
@@ -282,7 +282,7 @@ export async function POST(req: NextRequest) {
           automation.active
         ) {
           const smart_ai_message = await openai.chat.completions.create({
-            model: "gpt-4o-mini",
+            model: "llama3-70b-8192",
             messages: [
               {
                 role: "assistant",
