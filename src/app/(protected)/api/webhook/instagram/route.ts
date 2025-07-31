@@ -14,8 +14,17 @@ import { NextRequest, NextResponse } from "next/server";
 import { trackAnalytics } from "@/actions/analytics";
 
 export async function GET(req: NextRequest) {
-  const hub = req.nextUrl.searchParams.get("hub.challenge");
-  return new NextResponse(hub);
+  const mode = req.nextUrl.searchParams.get("hub.mode");
+  const token = req.nextUrl.searchParams.get("hub.verify_token");
+  const challenge = req.nextUrl.searchParams.get("hub.challenge");
+
+  // Verify webhook (Facebook sends this to verify your endpoint)
+  if (mode === "subscribe" && token === process.env.INSTAGRAM_WEBHOOK_VERIFY_TOKEN) {
+    console.log("Webhook verified");
+    return new NextResponse(challenge);
+  }
+  
+  return new NextResponse("Forbidden", { status: 403 });
 }
 
 export async function POST(req: NextRequest) {
