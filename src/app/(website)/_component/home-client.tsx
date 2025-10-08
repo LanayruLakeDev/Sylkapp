@@ -447,17 +447,17 @@ export default function HomeClient() {
               <h3 className="font-semibold mb-4">Legal</h3>
               <ul className="space-y-2">
                 <li>
-                  <Link href="#" className="hover:text-blue-400">
+                  <Link href="/privacy-policy" className="hover:text-blue-400">
                     Privacy Policy
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="hover:text-blue-400">
+                  <Link href="/terms-of-service" className="hover:text-blue-400">
                     Terms of Service
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="hover:text-blue-400">
+                  <Link href="/cookie-policy" className="hover:text-blue-400">
                     Cookie Policy
                   </Link>
                 </li>
