@@ -80,14 +80,14 @@ export default function HomeClient() {
       name: "Sarah Johnson",
       role: "Fashion Influencer",
       content:
-        "Slide has revolutionized how I interact with my followers. The AI responses are so natural, my engagement has skyrocketed!",
+        "Sylk has revolutionized how I interact with my followers. The AI responses are so natural, my engagement has skyrocketed!",
       avatar: "https://randomuser.me/api/portraits/men/1.jpg",
     },
     {
       name: "Mike Chen",
       role: "Tech Reviewer",
       content:
-        "The automation features have saved me hours each week. Now I can focus on creating content while Slide handles the engagement.",
+        "The automation features have saved me hours each week. Now I can focus on creating content while Sylk handles the engagement.",
       avatar: "https://randomuser.me/api/portraits/men/1.jpg",
     },
   ];
@@ -99,9 +99,9 @@ export default function HomeClient() {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
               <div className="h-8 w-8 rounded-lg bg-white text-primary-foreground flex items-center justify-center font-bold ">
-                <SlideSvg />
+                <SylkSvg />
               </div>
-              <span className="text-xl font-semibold text-primary">Slide</span>
+              <span className="text-xl font-semibold text-primary">Sylk</span>
             </div>
             <nav className="hidden space-x-6 text-sm text-blue-200 md:block">
               <Link href="#features">Features</Link>
@@ -127,12 +127,12 @@ export default function HomeClient() {
             className="mx-auto max-w-3xl text-center"
           >
             <h1 className="text-4xl font-bold leading-tight tracking-tighter text-white sm:text-5xl md:text-6xl lg:text-7xl">
-              Transform Your Instagram Engagement with Slide
+              Transform Your Facebook & Instagram Engagement with Sylk
             </h1>
 
             <p className="mt-6 text-lg text-blue-200">
-              Slide revolutionizes how you connect with your audience on
-              Instagram. Automate responses and boost engagement effortlessly,
+              Sylk revolutionizes how you connect with your audience on
+              Facebook and Instagram. Automate responses and boost engagement effortlessly,
               turning interactions into valuable business opportunities.
             </p>
 
@@ -218,7 +218,7 @@ export default function HomeClient() {
                 Integrate Your Account
               </h3>
               <p className="text-gray-600">
-                Connect your Instagram account to Slide and unlock powerful
+                Connect your Facebook and Instagram accounts to Sylk and unlock powerful
                 automation features.
               </p>
             </motion.div>
@@ -267,7 +267,7 @@ export default function HomeClient() {
               Choose Your Plan
             </h2>
             <p className="max-w-[900px] text-gray-600">
-              Select the perfect plan to boost your Instagram engagement
+              Select the perfect plan to boost your Facebook and Instagram engagement
             </p>
           </div>
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2 md:gap-8 max-w-4xl mx-auto">
@@ -362,7 +362,7 @@ export default function HomeClient() {
         <div className="container px-4">
           <div className="max-w-2xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-4">
-              Ready to Transform Your Instagram Engagement?
+              Ready to Transform Your Facebook & Instagram Engagement?
             </h2>
             <p className="mb-8">
               Get started with Slide today and watch your audience grow!
@@ -465,7 +465,7 @@ export default function HomeClient() {
             </div>
           </div>
           <div className="mt-8 pt-8 border-t border-gray-700 text-center">
-            <p>&copy; {new Date().getFullYear()} Slide. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Sylk. All rights reserved.</p>
           </div>
         </div>
       </footer>
@@ -473,7 +473,7 @@ export default function HomeClient() {
   );
 }
 
-const SlideSvg = () => {
+const SylkSvg = () => {
   return (
     <svg
       width="20"

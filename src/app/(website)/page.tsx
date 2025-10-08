@@ -3,22 +3,26 @@ import HomeClient from "./_component/home-client";
 
 export const metadata: Metadata = {
   keywords: [
+    "Facebook automation",
     "Instagram automation",
+    "Facebook engagement",
     "Instagram engagement",
+    "AI Facebook responses",
     "AI Instagram responses",
+    "Facebook marketing",
     "Instagram marketing",
-    "Instagram tools",
+    "Social media tools",
   ],
   openGraph: {
-    title: "Slide - Transform Your Instagram Engagement",
+    title: "Sylk - Transform Your Facebook & Instagram Engagement",
     description:
-      "Slide revolutionizes how you connect with your audience on Instagram. Automate responses and boost engagement effortlessly.",
+      "Sylk revolutionizes how you connect with your audience on Facebook and Instagram. Automate responses and boost engagement effortlessly.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Slide - Transform Your Instagram Engagement",
+    title: "Sylk - Transform Your Facebook & Instagram Engagement",
     description:
-      "Slide revolutionizes how you connect with your audience on Instagram. Automate responses and boost engagement effortlessly.",
+      "Sylk revolutionizes how you connect with your audience on Facebook and Instagram. Automate responses and boost engagement effortlessly.",
   },
 };
 

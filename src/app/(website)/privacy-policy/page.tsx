@@ -11,16 +11,16 @@ export default function PrivacyPolicy() {
           <p>We collect information you provide when you:</p>
           <ul className="list-disc ml-6 mt-2">
             <li>Create an account on our platform</li>
-            <li>Connect your Instagram account</li>
+            <li>Connect your Facebook and Instagram accounts</li>
             <li>Use our automation features</li>
           </ul>
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold mb-3">Instagram Data</h2>
-          <p>When you connect your Instagram account, we access:</p>
+          <h2 className="text-xl font-semibold mb-3">Facebook & Instagram Data</h2>
+          <p>When you connect your Facebook and Instagram accounts, we access:</p>
           <ul className="list-disc ml-6 mt-2">
-            <li>Your Instagram posts and comments</li>
+            <li>Your Facebook and Instagram posts and comments</li>
             <li>Direct messages for automation purposes</li>
             <li>Basic profile information</li>
           </ul>
@@ -31,7 +31,7 @@ export default function PrivacyPolicy() {
           <h2 className="text-xl font-semibold mb-3">How We Use Your Information</h2>
           <p>We use your information to:</p>
           <ul className="list-disc ml-6 mt-2">
-            <li>Provide Instagram automation services</li>
+            <li>Provide Facebook and Instagram automation services</li>
             <li>Generate AI-powered responses</li>
             <li>Manage your account and subscription</li>
             <li>Send important service updates</li>
@@ -40,7 +40,7 @@ export default function PrivacyPolicy() {
 
         <section>
           <h2 className="text-xl font-semibold mb-3">Data Security</h2>
-          <p>We implement industry-standard security measures to protect your data. Your Instagram access tokens are encrypted and stored securely.</p>
+          <p>We implement industry-standard security measures to protect your data. Your Facebook and Instagram access tokens are encrypted and stored securely.</p>
         </section>
 
         <section>
@@ -50,8 +50,9 @@ export default function PrivacyPolicy() {
 
         <section>
           <h2 className="text-xl font-semibold mb-3">Contact Us</h2>
+          <p>Sylk App is developed by Ahmed Ben Abdallah Dev.</p>
           <p>If you have questions about this Privacy Policy, contact us at:</p>
-          <p>Email: support@sylkapp.vercel.app</p>
+          <p>Email: sylk@email.com</p>
         </section>
       </div>
     </div>

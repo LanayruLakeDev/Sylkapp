@@ -8,12 +8,12 @@ export default function TermsOfService() {
         
         <section>
           <h2 className="text-xl font-semibold mb-3">Acceptance of Terms</h2>
-          <p>By using our Instagram automation service, you agree to these terms. If you do not agree, please do not use our service.</p>
+          <p>By using our Facebook and Instagram automation service, you agree to these terms. If you do not agree, please do not use our service.</p>
         </section>
 
         <section>
           <h2 className="text-xl font-semibold mb-3">Service Description</h2>
-          <p>Our platform provides Instagram automation services including:</p>
+          <p>Our platform provides Facebook and Instagram automation services including:</p>
           <ul className="list-disc ml-6 mt-2">
             <li>Automated responses to comments and direct messages</li>
             <li>AI-powered engagement tools</li>
@@ -25,7 +25,7 @@ export default function TermsOfService() {
           <h2 className="text-xl font-semibold mb-3">User Responsibilities</h2>
           <p>You agree to:</p>
           <ul className="list-disc ml-6 mt-2">
-            <li>Use the service in compliance with Instagram's Terms of Service</li>
+            <li>Use the service in compliance with Facebook's and Instagram's Terms of Service</li>
             <li>Not use the service for spam or inappropriate content</li>
             <li>Maintain the security of your account credentials</li>
             <li>Use automation responsibly and ethically</li>
@@ -33,8 +33,8 @@ export default function TermsOfService() {
         </section>
 
         <section>
-          <h2 className="text-xl font-semibold mb-3">Instagram Compliance</h2>
-          <p>Our service operates within Instagram's API guidelines. Users must ensure their Instagram accounts comply with Instagram's community guidelines and terms of service.</p>
+          <h2 className="text-xl font-semibold mb-3">Facebook & Instagram Compliance</h2>
+          <p>Our service operates within Facebook's and Instagram's API guidelines. Users must ensure their Facebook and Instagram accounts comply with both platforms' community guidelines and terms of service.</p>
         </section>
 
         <section>
@@ -54,13 +54,14 @@ export default function TermsOfService() {
 
         <section>
           <h2 className="text-xl font-semibold mb-3">Termination</h2>
-          <p>We may terminate accounts that violate these terms or Instagram's policies. Users can cancel their accounts at any time.</p>
+          <p>We may terminate accounts that violate these terms or Facebook's and Instagram's policies. Users can cancel their accounts at any time.</p>
         </section>
 
         <section>
           <h2 className="text-xl font-semibold mb-3">Contact Information</h2>
+          <p>Sylk App is developed by Ahmed Ben Abdallah Dev.</p>
           <p>For questions about these terms, contact us at:</p>
-          <p>Email: support@sylkapp.vercel.app</p>
+          <p>Email: sylk@email.com</p>
         </section>
       </div>
     </div>

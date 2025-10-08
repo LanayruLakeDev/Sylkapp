@@ -5,10 +5,10 @@
 <hr>
 
 <a href="[Your Repository URL]">
-<img src="[Your Logo URL]" width="90" alt="Slide Logo" />
+<img src="[Your Logo URL]" width="90" alt="Sylk Logo" />
 </a>
 
-<h2>Slide - Instagram Engagement Automation Platform</h2>
+<h2>Sylk - Facebook & Instagram Engagement Automation Platform</h2>
 
 ![](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
@@ -24,14 +24,14 @@
 
 ## 💡 Overview
 
-Slide is a powerful Instagram automation platform designed to revolutionize how businesses and creators engage with their audience. Built with modern technologies, it offers smart AI-powered responses and engagement automation to help grow your Instagram presence effectively.
+Sylk is a powerful Facebook and Instagram automation platform designed to revolutionize how businesses and creators engage with their audience. Built with modern technologies, it offers smart AI-powered responses and engagement automation to help grow your Facebook and Instagram presence effectively.
 
 ## ✨ Features
 
-- **🤖 AI-Powered Responses:** Smart automation for comments and DMs using advanced AI
-- **🎯 Targeted Interactions:** Engage with your audience using specific keywords and phrases
-- **🔄 Automated Engagement:** Set up custom triggers and responses for comments and messages
-- **⚡ 24/7 Availability:** Never miss an opportunity to connect with followers
+- **🤖 AI-Powered Responses:** Smart automation for comments and DMs on Facebook and Instagram using advanced AI
+- **🎯 Targeted Interactions:** Engage with your audience using specific keywords and phrases on both platforms
+- **🔄 Automated Engagement:** Set up custom triggers and responses for comments and messages on Facebook and Instagram
+- **⚡ 24/7 Availability:** Never miss an opportunity to connect with followers on both platforms
 - **💳 Subscription Plans:** Free and premium plans with advanced features
 - **📊 Analytics Dashboard:** Track engagement metrics and performance insights
 - **🔐 Secure Authentication:** Powered by Clerk for robust user management
@@ -64,7 +64,7 @@ Slide is a powerful Instagram automation platform designed to revolutionize how 
 
    ```bash
    git clone [your-repository-url]
-   cd slide-webprodigies
+   cd sylk-app
    ```
 
 2. **Install dependencies:**
@@ -112,9 +112,9 @@ Slide is a powerful Instagram automation platform designed to revolutionize how 
 
 Visit `http://localhost:3000` to access the application. Create an account to:
 
-- Connect your Instagram account
-- Set up automation rules
-- Monitor engagement metrics
+- Connect your Facebook and Instagram accounts
+- Set up automation rules for both platforms
+- Monitor engagement metrics across Facebook and Instagram
 - Manage subscription plans
 
 ## 🤝 Contributing
